@@ -1,4 +1,3 @@
-import Navigation from "./components/Navigation";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import HomePages from "./pages/HomePages";
 import LoginPages from "./pages/LoginPages";
