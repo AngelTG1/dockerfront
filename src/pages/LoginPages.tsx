@@ -24,7 +24,7 @@ function LoginPages() {
             const resProfile = await profileRequest()
             setProfile(resProfile.data.user)
 
-            navigate('/home')
+            navigate('/quizz')
         } catch (error) {
             console.error('Error during login:', error)
         }
